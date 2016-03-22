@@ -1,0 +1,9 @@
+D:\TennisPresentation\Tennis\TennisBusiness\TennisBusiness\bin\Debug\TennisBusiness.dll
+D:\TennisPresentation\Tennis\TennisBusiness\TennisBusiness\bin\Debug\TennisBusiness.pdb
+D:\TennisPresentation\Tennis\TennisBusiness\TennisBusiness\obj\Debug\TennisBusiness.csprojResolveAssemblyReference.cache
+D:\TennisPresentation\Tennis\TennisBusiness\TennisBusiness\obj\Debug\TennisBusiness.dll
+D:\TennisPresentation\Tennis\TennisBusiness\TennisBusiness\obj\Debug\TennisBusiness.pdb
+D:\Tennis\MHTennisRepo\Tennis\TennisBusiness\TennisBusiness\bin\Debug\TennisBusiness.dll
+D:\Tennis\MHTennisRepo\Tennis\TennisBusiness\TennisBusiness\bin\Debug\TennisBusiness.pdb
+D:\Tennis\MHTennisRepo\Tennis\TennisBusiness\TennisBusiness\obj\Debug\TennisBusiness.dll
+D:\Tennis\MHTennisRepo\Tennis\TennisBusiness\TennisBusiness\obj\Debug\TennisBusiness.pdb
