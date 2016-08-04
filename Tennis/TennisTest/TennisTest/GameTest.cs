@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TennisBusiness;
 
 namespace TennisTest
-{ 
+{
     [TestClass]
     public class GameTest
     {

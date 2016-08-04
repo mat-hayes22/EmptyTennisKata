@@ -14,11 +14,3 @@ D:\Tennis\MHTennisRepo\Tennis\TennisTest\TennisTest\bin\Debug\TennisBusiness.pdb
 D:\Tennis\MHTennisRepo\Tennis\TennisTest\TennisTest\obj\Debug\TennisTest.csprojResolveAssemblyReference.cache
 D:\Tennis\MHTennisRepo\Tennis\TennisTest\TennisTest\obj\Debug\TennisTest.dll
 D:\Tennis\MHTennisRepo\Tennis\TennisTest\TennisTest\obj\Debug\TennisTest.pdb
-D:\Tennis\Tennis\Tennis\TennisTest\TennisTest\bin\Debug\TennisTest.dll.config
-D:\Tennis\Tennis\Tennis\TennisTest\TennisTest\bin\Debug\TennisTest.dll
-D:\Tennis\Tennis\Tennis\TennisTest\TennisTest\bin\Debug\TennisTest.pdb
-D:\Tennis\Tennis\Tennis\TennisTest\TennisTest\bin\Debug\TennisBusiness.dll
-D:\Tennis\Tennis\Tennis\TennisTest\TennisTest\bin\Debug\TennisBusiness.pdb
-D:\Tennis\Tennis\Tennis\TennisTest\TennisTest\obj\Debug\TennisTest.csprojResolveAssemblyReference.cache
-D:\Tennis\Tennis\Tennis\TennisTest\TennisTest\obj\Debug\TennisTest.dll
-D:\Tennis\Tennis\Tennis\TennisTest\TennisTest\obj\Debug\TennisTest.pdb

@@ -16,13 +16,3 @@ D:\TennisPresentation\Tennis\TennisCuke\TennisCuke\bin\Debug\TennisBusiness.pdb
 D:\TennisPresentation\Tennis\TennisCuke\TennisCuke\obj\Debug\TennisCuke.csprojResolveAssemblyReference.cache
 D:\TennisPresentation\Tennis\TennisCuke\TennisCuke\obj\Debug\TennisCuke.dll
 D:\TennisPresentation\Tennis\TennisCuke\TennisCuke\obj\Debug\TennisCuke.pdb
-D:\Tennis\Tennis\Tennis\TennisCuke\TennisCuke\bin\Debug\TennisCuke.dll.config
-D:\Tennis\Tennis\Tennis\TennisCuke\TennisCuke\bin\Debug\TennisCuke.dll
-D:\Tennis\Tennis\Tennis\TennisCuke\TennisCuke\bin\Debug\TennisCuke.pdb
-D:\Tennis\Tennis\Tennis\TennisCuke\TennisCuke\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-D:\Tennis\Tennis\Tennis\TennisCuke\TennisCuke\bin\Debug\TechTalk.SpecFlow.dll
-D:\Tennis\Tennis\Tennis\TennisCuke\TennisCuke\bin\Debug\TennisBusiness.dll
-D:\Tennis\Tennis\Tennis\TennisCuke\TennisCuke\bin\Debug\TennisBusiness.pdb
-D:\Tennis\Tennis\Tennis\TennisCuke\TennisCuke\obj\Debug\TennisCuke.csprojResolveAssemblyReference.cache
-D:\Tennis\Tennis\Tennis\TennisCuke\TennisCuke\obj\Debug\TennisCuke.dll
-D:\Tennis\Tennis\Tennis\TennisCuke\TennisCuke\obj\Debug\TennisCuke.pdb

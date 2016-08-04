@@ -7,8 +7,3 @@ D:\Tennis\MHTennisRepo\Tennis\TennisBusiness\TennisBusiness\bin\Debug\TennisBusi
 D:\Tennis\MHTennisRepo\Tennis\TennisBusiness\TennisBusiness\bin\Debug\TennisBusiness.pdb
 D:\Tennis\MHTennisRepo\Tennis\TennisBusiness\TennisBusiness\obj\Debug\TennisBusiness.dll
 D:\Tennis\MHTennisRepo\Tennis\TennisBusiness\TennisBusiness\obj\Debug\TennisBusiness.pdb
-D:\Tennis\Tennis\Tennis\TennisBusiness\TennisBusiness\bin\Debug\TennisBusiness.dll
-D:\Tennis\Tennis\Tennis\TennisBusiness\TennisBusiness\bin\Debug\TennisBusiness.pdb
-D:\Tennis\Tennis\Tennis\TennisBusiness\TennisBusiness\obj\Debug\TennisBusiness.csprojResolveAssemblyReference.cache
-D:\Tennis\Tennis\Tennis\TennisBusiness\TennisBusiness\obj\Debug\TennisBusiness.dll
-D:\Tennis\Tennis\Tennis\TennisBusiness\TennisBusiness\obj\Debug\TennisBusiness.pdb

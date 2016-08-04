@@ -14,7 +14,7 @@
 #
 #Scenario: Player Two wins Game
 #	Given I have a game and the Score is ‘15‘– ‘40’ 
-#	When Player ‘2’ scores 
+#	When Player ‘2’ scores
 #	Then the score should show as 'Player 1 15 - 55 Player 2‘
 #
 #Scenario: Mat Scores a point
