@@ -16,5 +16,15 @@ namespace TennisDesktop
         {
             InitializeComponent();
         }
+
+        private void btnPoint2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPoint1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

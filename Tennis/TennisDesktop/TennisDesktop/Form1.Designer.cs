@@ -32,19 +32,27 @@
             this.txP1Name = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.txP1Score = new System.Windows.Forms.TextBox();
-            this.txP1Games = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txP1Sets = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txP2Sets = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txP2Games = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.txP2Score = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.txP2Name = new System.Windows.Forms.TextBox();
+            this.btnPoint1 = new System.Windows.Forms.Button();
+            this.btnPoint2 = new System.Windows.Forms.Button();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -82,20 +90,6 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Score:";
             // 
-            // txP1Score
-            // 
-            this.txP1Score.Location = new System.Drawing.Point(80, 123);
-            this.txP1Score.Name = "txP1Score";
-            this.txP1Score.Size = new System.Drawing.Size(100, 26);
-            this.txP1Score.TabIndex = 6;
-            // 
-            // txP1Games
-            // 
-            this.txP1Games.Location = new System.Drawing.Point(80, 155);
-            this.txP1Games.Name = "txP1Games";
-            this.txP1Games.Size = new System.Drawing.Size(100, 26);
-            this.txP1Games.TabIndex = 8;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -104,13 +98,6 @@
             this.label5.Size = new System.Drawing.Size(65, 20);
             this.label5.TabIndex = 7;
             this.label5.Text = "Games:";
-            // 
-            // txP1Sets
-            // 
-            this.txP1Sets.Location = new System.Drawing.Point(80, 187);
-            this.txP1Sets.Name = "txP1Sets";
-            this.txP1Sets.Size = new System.Drawing.Size(100, 26);
-            this.txP1Sets.TabIndex = 10;
             // 
             // label6
             // 
@@ -121,13 +108,6 @@
             this.label6.TabIndex = 9;
             this.label6.Text = "Sets:";
             // 
-            // txP2Sets
-            // 
-            this.txP2Sets.Location = new System.Drawing.Point(260, 187);
-            this.txP2Sets.Name = "txP2Sets";
-            this.txP2Sets.Size = new System.Drawing.Size(100, 26);
-            this.txP2Sets.TabIndex = 18;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -137,13 +117,6 @@
             this.label3.TabIndex = 17;
             this.label3.Text = "Sets:";
             // 
-            // txP2Games
-            // 
-            this.txP2Games.Location = new System.Drawing.Point(260, 155);
-            this.txP2Games.Name = "txP2Games";
-            this.txP2Games.Size = new System.Drawing.Size(100, 26);
-            this.txP2Games.TabIndex = 16;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -152,13 +125,6 @@
             this.label7.Size = new System.Drawing.Size(65, 20);
             this.label7.TabIndex = 15;
             this.label7.Text = "Games:";
-            // 
-            // txP2Score
-            // 
-            this.txP2Score.Location = new System.Drawing.Point(260, 123);
-            this.txP2Score.Name = "txP2Score";
-            this.txP2Score.Size = new System.Drawing.Size(100, 26);
-            this.txP2Score.TabIndex = 14;
             // 
             // label8
             // 
@@ -185,30 +151,100 @@
             this.txP2Name.Size = new System.Drawing.Size(100, 26);
             this.txP2Name.TabIndex = 11;
             // 
+            // btnPoint1
+            // 
+            this.btnPoint1.Location = new System.Drawing.Point(80, 225);
+            this.btnPoint1.Name = "btnPoint1";
+            this.btnPoint1.Size = new System.Drawing.Size(100, 34);
+            this.btnPoint1.TabIndex = 19;
+            this.btnPoint1.Text = "Score Point";
+            this.btnPoint1.UseVisualStyleBackColor = true;
+            this.btnPoint1.Click += new System.EventHandler(this.btnPoint1_Click);
+            // 
+            // btnPoint2
+            // 
+            this.btnPoint2.Location = new System.Drawing.Point(260, 225);
+            this.btnPoint2.Name = "btnPoint2";
+            this.btnPoint2.Size = new System.Drawing.Size(100, 34);
+            this.btnPoint2.TabIndex = 20;
+            this.btnPoint2.Text = "Score Point";
+            this.btnPoint2.UseVisualStyleBackColor = true;
+            this.btnPoint2.Click += new System.EventHandler(this.btnPoint2_Click);
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(80, 127);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(100, 26);
+            this.numericUpDown1.TabIndex = 21;
+            // 
+            // numericUpDown2
+            // 
+            this.numericUpDown2.Location = new System.Drawing.Point(259, 127);
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(100, 26);
+            this.numericUpDown2.TabIndex = 22;
+            // 
+            // numericUpDown3
+            // 
+            this.numericUpDown3.Location = new System.Drawing.Point(259, 161);
+            this.numericUpDown3.Name = "numericUpDown3";
+            this.numericUpDown3.Size = new System.Drawing.Size(100, 26);
+            this.numericUpDown3.TabIndex = 24;
+            // 
+            // numericUpDown4
+            // 
+            this.numericUpDown4.Location = new System.Drawing.Point(80, 161);
+            this.numericUpDown4.Name = "numericUpDown4";
+            this.numericUpDown4.Size = new System.Drawing.Size(100, 26);
+            this.numericUpDown4.TabIndex = 23;
+            // 
+            // numericUpDown5
+            // 
+            this.numericUpDown5.Location = new System.Drawing.Point(260, 193);
+            this.numericUpDown5.Name = "numericUpDown5";
+            this.numericUpDown5.Size = new System.Drawing.Size(100, 26);
+            this.numericUpDown5.TabIndex = 26;
+            // 
+            // numericUpDown6
+            // 
+            this.numericUpDown6.Location = new System.Drawing.Point(81, 193);
+            this.numericUpDown6.Name = "numericUpDown6";
+            this.numericUpDown6.Size = new System.Drawing.Size(100, 26);
+            this.numericUpDown6.TabIndex = 25;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(391, 265);
-            this.Controls.Add(this.txP2Sets);
+            this.ClientSize = new System.Drawing.Size(391, 274);
+            this.Controls.Add(this.numericUpDown5);
+            this.Controls.Add(this.numericUpDown6);
+            this.Controls.Add(this.numericUpDown3);
+            this.Controls.Add(this.numericUpDown4);
+            this.Controls.Add(this.numericUpDown2);
+            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.btnPoint2);
+            this.Controls.Add(this.btnPoint1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txP2Games);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.txP2Score);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txP2Name);
-            this.Controls.Add(this.txP1Sets);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.txP1Games);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txP1Score);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txP1Name);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -220,19 +256,21 @@
         private System.Windows.Forms.TextBox txP1Name;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txP1Score;
-        private System.Windows.Forms.TextBox txP1Games;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txP1Sets;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txP2Sets;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txP2Games;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txP2Score;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txP2Name;
+        private System.Windows.Forms.Button btnPoint1;
+        private System.Windows.Forms.Button btnPoint2;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown numericUpDown4;
+        private System.Windows.Forms.NumericUpDown numericUpDown5;
+        private System.Windows.Forms.NumericUpDown numericUpDown6;
     }
 }
 
